@@ -2,7 +2,7 @@ import torch
 import numpy as np
 import open3d as o3d
 
-from lib.metrics import pdist
+from .metrics import pdist
 from scipy.spatial import cKDTree
 
 

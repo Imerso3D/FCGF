@@ -1,6 +1,6 @@
 import logging
-import model.simpleunet as simpleunets
-import model.resunet as resunets
+from . import simpleunet as simpleunets
+from . import resunet as resunets
 
 MODELS = []
 

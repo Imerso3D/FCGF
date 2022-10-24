@@ -12,8 +12,8 @@ import os
 from scipy.linalg import expm, norm
 import pathlib
 
-from util.pointcloud import get_matching_indices, make_open3d_point_cloud
-import lib.transforms as t
+from FCGF.util.pointcloud import get_matching_indices, make_open3d_point_cloud
+import FCGF.lib.transforms as t
 
 import MinkowskiEngine as ME
 
