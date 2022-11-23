@@ -12,7 +12,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from tensorboardX import SummaryWriter
 
-from FCGF.model import load_model
+from fcgf.model import load_model
 import util.transform_estimation as te
 from lib.metrics import pdist, corr_dist
 from lib.timer import Timer, AverageMeter
